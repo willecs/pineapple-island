@@ -1,0 +1,279 @@
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    color: #0E204E;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.nav-words {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+    gap: 30px;
+    color: #0E204E;
+    background-color: white;
+}
+
+.nav-button {
+    font-family: "Manrope", sans-serif;
+    background-color: #0E204E;
+    color: white;
+    max-width: 115px;
+    height: 40px;
+}
+
+.button-words {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.title-page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E204E;
+    color: white;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 325px;
+    padding: 20px 40px;
+
+}
+
+.title {
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 45px;
+}
+
+.title-text {
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 700px;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: row;
+    margin: 90px;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Playfair Display", serif;
+    color: #0E204E;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 55px;
+}
+
+.about img {
+    width: 500px;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    background-color: #0E204E;
+    width: 500px;
+
+    padding: 35px;
+    font-size: 15px;
+}
+
+.why-page {
+    display: flex;
+    flex-direction: row;
+    background-color: #0E204E;
+}
+
+.why-text-img {
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+}
+
+.why-title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: bold;
+
+    padding: 60px;
+}
+
+.why-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: #0E204E;
+    font-family: "Manrope", sans-serif;
+
+    padding: 35px;
+    font-size: 15px;
+
+    width: 210px;
+}
+
+.why-img img {
+    width: 500px;
+}
+
+.what-title {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0E204E;
+    text-align: center;
+    padding: 20px;
+}
+
+.what-icons-image {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.what-image img {
+    width: 500px;
+}
+
+.what-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-right: 25px;
+}
+
+.icon-row-1 {
+    display: flex;
+    flex-direction: row;
+    font-family: "Manrope", sans-serif;
+    color: #0E204E;
+
+    gap: 120px;
+    margin-left: 125px;
+}
+
+.icon-row-2 {
+    display: flex;
+    flex-direction: row;
+    font-family: "Manrope", sans-serif;
+    color: #0E204E;
+
+    gap: 70px;
+    margin-left: 125px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.services img {
+    width: 90px;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #0E204E;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pineapple {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    padding: 35px;
+    width: 250px;
+}
+
+.pineapple-title {
+    font-size: 30px;
+}
+
+.form {
+    color: white;
+    width: 300px;
+    margin-top: 55px;
+}
+
+.keep-up {
+    font-family: "Manrope", sans-serif;
+}
+
+.follow-up {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+.email-subscribe {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    color: rgb(146, 146, 146);
+    background-color: white;
+    padding: 5px;
+    width: 500px;
+    margin-right: 5px;
+    font-family: "Manrope", sans-serif;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    color: #0E204E;
+    padding: 5px 15px;
+}
+
+/* These buttons below were styled accordingly for hover option */
+
+.subscribe:hover {
+    background-color: #0E204E;
+    color: white;
+}
+
+.button-words:hover {
+    color: #0E204E;
+    background-color: white;
+}
